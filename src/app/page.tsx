@@ -4,6 +4,7 @@ import FeaturedSection from "./components/FeaturedSection";
 import WhyChooseUsSection from "./components/WhyChooseUsSection";
 import TestimonialSection from "./components/TestimonialSection";
 import UpcomingWebinars from "./components/UpcomingWebinarsSection";
+import InstructorSection from "./components/InstructorSection";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <WhyChooseUsSection/>
       <TestimonialSection />
       <UpcomingWebinars />
+      <InstructorSection />
     </main>
   );
 }
